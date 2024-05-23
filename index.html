@@ -1,0 +1,949 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <meta name="copyright" content="MACode ID, https://www.macodeid.com/" />
+
+    <title>Leeann Smith - Portfolio HTML</title>
+
+    <link
+      rel="shortcut icon"
+      href="../assets/img/leeleepic.png"
+      type="image/x-icon"
+    />
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../assets/css/themify-icons.css"
+    />
+
+    <link rel="stylesheet" type="text/css" href="../assets/css/bootstrap.css" />
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../assets/vendor/animate/animate.css"
+    />
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../assets/vendor/owl-carousel/owl.carousel.css"
+    />
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../assets/vendor/perfect-scrollbar/css/perfect-scrollbar.css"
+    />
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../assets/vendor/nice-select/css/nice-select.css"
+    />
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../assets/vendor/fancybox/css/jquery.fancybox.min.css"
+    />
+
+    <link rel="stylesheet" type="text/css" href="../assets/css/virtual.css" />
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../assets/css/topbar.virtual.css"
+    />
+  </head>
+  <body class="theme-red">
+    <!-- Back to top button -->
+    <div class="btn-back_to_top">
+      <span class="ti-arrow-up"></span>
+    </div>
+
+    <!-- Setting button -->
+    <div class="config">
+      <div class="template-config">
+        <!-- Settings -->
+        <div class="d-block">
+          <button class="btn btn-fab btn-sm" id="sideel" title="Settings">
+            <span class="ti-settings"></span>
+          </button>
+        </div>
+        <!-- Puschase -->
+        <div class="d-block">
+          <a
+            href="https://macodeid.com/projects/virtual-folio/"
+            class="btn btn-fab btn-sm"
+            title="Get this template"
+            data-toggle="tooltip"
+            data-placement="left"
+            ><span class="ti-download"></span
+          ></a>
+        </div>
+        <!-- Help -->
+        <div class="d-block">
+          <a
+            href="#"
+            class="btn btn-fab btn-sm"
+            title="Help"
+            data-toggle="tooltip"
+            data-placement="left"
+            ><span class="ti-help"></span
+          ></a>
+        </div>
+      </div>
+      <div class="set-menu">
+        <p>Select Color</p>
+        <div class="color-bar" data-toggle="selected">
+          <span
+            class="color-item bg-theme-red selected"
+            data-class="theme-red"
+          ></span>
+          <span class="color-item bg-theme-blue" data-class="theme-blue"></span>
+          <span
+            class="color-item bg-theme-green"
+            data-class="theme-green"
+          ></span>
+          <span
+            class="color-item bg-theme-orange"
+            data-class="theme-orange"
+          ></span>
+          <span
+            class="color-item bg-theme-purple"
+            data-class="theme-purple"
+          ></span>
+        </div>
+        <select class="custom-select d-block my-2" id="change-page">
+          <option value="">Choose Page</option>
+          <option value="index">Topbar</option>
+          <option value="blog-topbar">Blog (Topbar)</option>
+          <option value="index-2">Minibar</option>
+          <option value="blog-minibar">Blog (Minibar)</option>
+        </select>
+      </div>
+    </div>
+
+    <div
+      class="vg-page page-home"
+      id="home"
+      style="background-image: url(../assets/img/mzcoder.png"
+    >)
+      <!-- Navbar -->
+      <div class="navbar navbar-expand-lg navbar-dark sticky" data-offset="500">
+        <div class="container">
+          <a href="" class="navbar-brand">Women In Web-development</a>
+          <button
+            class="navbar-toggler"
+            data-toggle="collapse"
+            data-target="#main-navbar"
+            aria-expanded="true"
+          >
+            <span class="ti-menu"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="main-navbar">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a href="#home" class="nav-link" data-animate="scrolling"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="#about" class="nav-link" data-animate="scrolling"
+                  >About</a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="#portfolio" class="nav-link" data-animate="scrolling"
+                  >Portfolio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="#blog" class="nav-link" data-animate="scrolling"
+                  >Blog</a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="#contact" class="nav-link" data-animate="scrolling"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+            <ul class="nav ml-auto">
+              <li class="nav-item">
+                <button class="btn btn-fab btn-theme no-shadow">4TLC</button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- End Navbar -->
+      <!-- Caption header -->
+      <div class="caption-header text-center wow zoomInDown">
+        <h5 class="fw-normal">Welcome</h5>
+        <h1 class="fw-light mb-4">👋🏾 Hey! I'm Leeann <b class="fg-theme">'LeeLee'</b> Smith</h1>
+        <div class="badge">jr. Web Developer</div>
+      </div>
+      <!-- End Caption header -->
+      <div class="floating-button"><span class="ti-mouse"></span></div>
+    </div>
+
+    <div class="vg-page page-about" id="about">
+      <div class="container py-5">
+        <div class="row">
+          <div class="col-lg-4 py-3">
+            <div class="img-place wow fadeInUp">
+              <img src="../assets/img/headshot.png" alt="">
+            </div>
+          </div>
+          <div class="col-lg-6 offset-lg-1 wow fadeInRight">
+            <h1 class="fw-light">Leeann Smith</h1>
+            <h5 class="fg-theme mb-3">UI/UX & Web Designer</h5>
+            <p class="text-muted">
+              I am proud to describe myself as a professional, 
+              empathetic, passionate, helpful, and intelligent individual. 
+              I take great pride in my work and always strive to provide 
+              the best possible service to those around me. My passion for what I do 
+              drives me to continuously learn and improve, and my intelligence helps me 
+              to find creative solutions to even the most challenging problems.
+            </p>
+            <ul class="theme-list">
+              <li><b>From:</b> Chicago, IL</li>
+              <li><b>Lives In:</b> Madison, WI</li>
+              <li><b>Gender:</b> Female</li>
+              <li><b>Pronouns:</b> She, Her, Hers</li>
+            </ul>
+            <button class="btn btn-theme-outline">Download CV</button>
+          </div>
+        </div>
+      </div>
+      <div class="container py-5">
+        <h1 class="text-center fw-normal wow fadeIn">My Skills</h1>
+        <div class="row py-3">
+          <div class="col-md-6">
+            <div class="px-lg-3">
+              <h4 class="wow fadeInUp">Coding skills</h4>
+              <div class="progress-wrapper wow fadeInUp">
+                <span class="caption">JavaScript</span>
+                <div class="progress">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    style="width: 47%"
+                    aria-valuenow="75"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  >
+                  47%
+                  </div>
+                </div>
+              </div>
+              <div class="progress-wrapper wow fadeInUp">
+                <span class="caption">HTML + CSS</span>
+                <div class="progress">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    style="width: 65%"
+                    aria-valuenow="75"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  >
+                  65%
+                  </div>
+                </div>
+              </div>
+              <div class="progress-wrapper wow fadeInUp">
+                <span class="caption">bootstrap</span>
+                <div class="progress">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    style="width: 37%"
+                    aria-valuenow="75"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  >
+                  37%
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="px-lg-3">
+              <h4 class="wow fadeInUp">Design Skills</h4>
+              <div class="progress-wrapper wow fadeInUp">
+                <span class="caption">UI / UX Design</span>
+                <div class="progress">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    style="width: 59%"
+                    aria-valuenow="75"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  >
+                  59%
+                  </div>
+                </div>
+              </div>
+              <div class="progress-wrapper wow fadeInUp">
+                <span class="caption">Web Design</span>
+                <div class="progress">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    style="width: 70%"
+                    aria-valuenow="75"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  >
+                  70%
+                  </div>
+                </div>
+              </div>
+              <div class="progress-wrapper wow fadeInUp">
+                <span class="caption">Logo Design</span>
+                <div class="progress">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    style="width: 52%"
+                    aria-valuenow="75"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  >
+                  52%
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container pt-5">
+        <div class="row">
+          <div class="col-md-6 wow fadeInRight">
+            <h2 class="fw-normal">Education</h2>
+            <ul class="timeline mt-4 pr-md-5">
+              <li>
+                <div class="title">2024</div>
+                <div class="details">
+                  <h5>Web Development</h5>
+                  <small class="fg-theme">YWCA-YWEB Career Academy</small>
+                  <p>
+                    Participate during in-person sessions. Completed over 130 hours of training in HTML,
+                    CSS, Bootstrap, and Javascript.
+                  </p>
+                </div>
+              </li>
+              <li>
+                <div class="title">2023</div>
+                <div class="details">
+                  <h5>Cybersecruity</h5>
+                  <small class="fg-theme">UW-Madison</small>
+                  <p>
+                    Participated in virtual trianing bootcamp. Learner about
+                    vulnerabilities, as well as hacking history and protection
+                    techniques for defence against internet predators.
+                  </p>
+                </div>
+              </li>
+              <li>
+                <div class="title">2011</div>
+                <div class="details">
+                  <h5>Microsoft Skills</h5>
+                  <small class="fg-theme">Madison Area Technical College</small>
+                  <p>
+                    Learned extensive knowledge of Mircosoft software how to
+                    utilize properly and efficiently.
+                  </p>
+                </div>
+              </li>
+
+            <li>
+              <div class="title">2010</div>
+              <div class="details">
+                <h5>High School</h5>
+                <small class="fg-theme">University of Study</small>
+                <p>Basic education General knowledge graduted on time.</p>
+              </div>
+            </li>
+          </div>
+          
+          <div class="col-md-6 wow fadeInRight" data-wow-delay="200ms">
+            <h2 class="fw-normal">Experience</h2>
+            <ul class="timeline mt-4 pr-md-5">
+              <li>
+                <div class="title">2024</div>
+                <div class="details">
+                  <h5>Web Development</h5>
+                  <small class="fg-theme">YWEB Career Academy</small>
+                  <p>develop, test and debug on software programs including HTML,
+                    CSS, JavaScript, and WordPress</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="vg-page page-service">
+      <div class="container">
+        <div class="text-center wow fadeInUp">
+          <div class="badge badge-subhead">Service</div>
+        </div>
+        <h1 class="fw-normal text-center wow fadeInUp">What can i do?</h1>
+        <div class="row mt-5">
+          <div class="col-md-6 col-lg-4">
+            <div class="card card-service wow fadeInUp">
+              <div class="icon">
+                <span class="ti-paint-bucket"></span>
+              </div>
+              <div class="caption">
+                <h4 class="fg-theme">Web Design</h4>
+                <p>
+                  Take your ideas and bring them to life on your website!
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="card card-service wow fadeInUp">
+              <div class="icon">
+                <span class="ti-vector"></span>
+              </div>
+              <div class="caption">
+                <h4 class="fg-theme">UI/UX Design</h4>
+                <p>
+                  Combining HTML with CSS and JavaScript creates an exceptional experience for the user!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="card card-service wow fadeInUp">
+              <div class="icon">
+                <span class="ti-desktop"></span>
+              </div>
+              <div class="caption">
+                <h4 class="fg-theme">Web Development</h4>
+                <p>
+                  From 0's and 1's document to fully responsive and interactive website!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="vg-page page-funfact"
+      style="background-image: url(../assets/img/bg_banner.jpg)"
+    >
+      <div class="container">
+        <div class="row section-counter">
+          <div class="col-md-6 col-lg-3 py-4 wow fadeIn">
+            <h1 class="number" data-number="0">0</h1>
+            <span>Clients</span>
+          </div>
+          <div class="col-md-6 col-lg-3 py-4 wow fadeIn">
+            <h1 class="number" data-number="7">7</h1>
+            <span>Project Compleate</span>
+          </div>
+          <div class="col-md-6 col-lg-3 py-4 wow fadeIn">
+            <h1 class="number" data-number="3">3</h1>
+            <span>Project Ongoing</span>
+          </div>
+          <div class="col-md-6 col-lg-3 py-4 wow fadeIn">
+            <h1 class="number" data-number="100">100</h1>
+            <span>Client Satisfaction</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Portfolio page -->
+    <div class="vg-page page-portfolio" id="portfolio">
+      <div class="container">
+        <div class="text-center wow fadeInUp">
+          <div class="badge badge-subhead">Portfolio</div>
+        </div>
+        <h1 class="text-center fw-normal wow fadeInUp">See my work</h1>
+        <div class="filterable-button py-3 wow fadeInUp" data-toggle="selected">
+          <button class="btn btn-theme-outline selected" data-filter="*">
+            All
+          </button>
+
+          <button class="btn btn-theme-outline" data-filter=".template">
+            Template
+          </button>
+          
+          <button class="btn btn-theme-outline" data-filter=".ui-ux">
+            UI/UX
+          </button>
+
+          <button class="btn btn-theme-outline" data-filter=".wireframes">
+            Wireframes
+          </button>
+        </div>
+
+        <div class="gridder my-3">
+          <div class="grid-item ui-ux wow zoomIn">
+            <div
+              class="img-place"
+              data-src="../assets/img/jeep.mp4"
+              data-fancybox
+              data-caption="<h5 class='fg-theme'>I Love Jeeps</h5> <p>Travel, Discovery</p>"
+            >
+              <img src="../assets/img/jeep.png" alt="" />
+              <div class="img-caption">
+                <h5 class="fg-theme">I Love Jeep</h5>
+                <p>Cars/Travel</p>
+              </div>
+            </div>
+          </div>
+          <div class="grid-item ui-ux wow zoomIn">
+            <div
+              class="img-place"
+              data-src="../assets/img/strawberry.mp4"
+              data-fancybox
+              data-caption="<h5 class='fg-theme'>Strawberry Sancutary</h5> <p>Food, Lifestlye</p>"
+            >
+              <img src="../assets/img/Screenshot 2024-05-16 102324.png" alt="" />
+              <div class="img-caption">
+                <h5 class="fg-theme">Strawberry Sancutary</h5>
+                <p>Life/Food</p>
+              </div>
+            </div>
+          </div>
+          <div class="grid-item template ui-ux wow zoomIn">
+            <div
+              class="img-place"
+              data-src="../assets/img/creeper.mp4"
+              data-fancybox
+              data-caption="<h5 class='fg-theme'>23rd Spring</h5> <p>Life or Death</p>"
+            >
+              <img src="../assets/img/jeeper.png" alt="" />
+              <div class="img-caption">
+                <h5 class="fg-theme">Defense Strategies</h5>
+                <p>Life or Death</p>
+              </div>
+            </div>
+          </div>
+          <div class="grid-item ui-ux ios wow zoomIn">
+            <div
+              class="img-place"
+              data-src="../assets/img/ggg.mp4"
+              data-fancybox
+              data-caption="<h5 class='fg-theme'>Good Girl Gang</h5> <p>Solidarity, Empowerment</p>"
+            >
+              <img src="../assets/img/ggg.png" alt="" />
+              <div class="img-caption">
+                <h5 class="fg-theme">Super Hero</h5>
+                <p>Save the day!</p>
+              </div>
+            </div>
+          </div>
+          <div class="grid-item template wireframes wow zoomIn">
+            <div
+              class="img-place"
+              data-src="../assets/img/wireframe5.png"
+              data-fancybox
+              data-caption="<h5 class='fg-theme'>Music App</h5> <p>Musics</p>"
+            >
+              <img src="../assets/img/wireframe5.png" alt="" />
+              <div class="img-caption">
+                <h5 class="fg-theme">Final Draft</h5>
+                <p>Start w/ pencil and paper</p>
+              </div>
+            </div>
+            
+            
+         
+          </div>
+         
+          </div>
+        </div>
+        <!-- End gridder -->
+
+      </div>
+    </div>
+    <!-- End Portfolio page -->
+
+    <!-- Testimonial -->
+    <div class="vg-page page-testimonial">
+      <div class="container">
+        <h1 class="text-center fw-normal wow fadeInUp">
+          What Clients are Saying
+        </h1>
+        <div class="row justify-content-center mt-5 wow fadeInUp">
+          <div class="col-md-9">
+            <div class="owl-carousel testi-carousel">
+              <div class="item">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="img-place">
+                      <img
+                        src="../assets/img/kody.png"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="caption">
+                      <div class="testi-content">
+                        Leeann is a very bold inquisitive individual who is always ready to learn and elevate
+                        her learning experience. She is unapologetically herself expressing herself both vocally
+                        and through her work. She has a strong drive and impecable work ethic. She works well 
+                        with others as well as an a individual. She is very attentive and coachable.
+                        She is also an active learner going the extra mile to gain more knowledge.
+                      </div>
+                      <div class="testi-info">
+                        <div class="thumb-profile">
+                          <img
+                            src="../assets/img/kody.png"
+                            alt=""
+                          />
+                        </div>
+                        <div class="tagline">
+                          <h5 class="mb-0">Kody Wright</h5>
+                          <span class="text-muted">YWEB Instructor</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="img-place">
+                      <img
+                        src="../assets/img/christina.png"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="caption">
+                      <div class="testi-content">
+                        As a fellow classmate, I find Leeann very lively and outoging. Her
+                        personality is big and bold. Her outstanding work ethic mixed with
+                        her charisma makes her a great contemporary. She is a very fast learner,
+                        displaying her ability to quickly interpret and apply concepts and able to
+                        elucidate for her fellow classmates who have trouble comprehending. She is a very
+                        empathetic individual and a joy to be around.
+
+                        
+                      </div>
+                      <div class="testi-info">
+                        <div class="thumb-profile">
+                          <img
+                            src="../assets/img/christina.png"
+                            alt=""
+                          />
+                        </div>
+                        <div class="tagline">
+                          <h5 class="mb-0">Christina Bankhead</h5>
+                          <span class="text-muted">CEO of CMB LLC.</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End testimonial -->
+
+    <!-- Client -->
+    <div class="vg-page page-client">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-lg-4 col-xl-3 item">
+            <div class="img-place wow fadeInUp">
+              <img src="../assets/img/logo/company_1.svg" alt="" />
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 col-xl-3 item">
+            <div class="img-place wow fadeInUp">
+              <img src="../assets/img/logo/company_2.svg" alt="" />
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 col-xl-3 item">
+            <div class="img-place wow fadeInUp">
+              <img src="../assets/img/logo/company_3.svg" alt="" />
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 col-xl-3 item">
+            <div class="img-place wow fadeInUp">
+              <img src="../assets/img/logo/company_4.svg" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6 col-lg-4 col-xl-3 item">
+            <div class="img-place wow fadeInUp">
+              <img src="../assets/img/logo/company_5.svg" alt="" />
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 col-xl-3 item">
+            <div class="img-place wow fadeInUp">
+              <img src="../assets/img/logo/company_6.svg" alt="" />
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 col-xl-3 item">
+            <div class="img-place wow fadeInUp">
+              <img src="../assets/img/logo/company_7.svg" alt="" />
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 col-xl-3 item">
+            <div class="img-place wow fadeInUp">
+              <img src="../assets/img/logo/company_8.svg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End client -->
+
+    <!-- Blog -->
+    <div class="vg-page page-blog" id="blog">
+      <div class="container">
+        <div class="text-center">
+          <div class="badge badge-subhead wow fadeInUp">Blog</div>
+        </div>
+        <h1 class="text-center fw-normal wow fadeInUp">Latest Post</h1>
+        <div class="row post-grid">
+          <div class="col-md-6 col-lg-4 wow fadeInUp">
+            <div class="card">
+              <div class="img-place">
+                <img src="../assets/img/work/work-9.jpg" alt="" />
+              </div>
+              <div class="caption">
+                <a href="javascript:void(0)" class="post-category"
+                  >Technology</a
+                >
+                <a href="#" class="post-title">Invision design forward fund</a>
+                <span class="post-date"
+                  ><span class="sr-only">Published on</span> May 22, 2018</span
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 wow fadeInUp">
+            <div class="card">
+              <div class="img-place">
+                <img src="../assets/img/work/work-6.jpg" alt="" />
+              </div>
+              <div class="caption">
+                <a href="javascript:void(0)" class="post-category">Business</a>
+                <a href="#" class="post-title"
+                  >Announcing a plan for small teams</a
+                >
+                <span class="post-date"
+                  ><span class="sr-only">Published on</span> May 22, 2018</span
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 wow fadeInUp">
+            <div class="card">
+              <div class="img-place">
+                <img src="../assets/img/work/work-1.jpg" alt="" />
+              </div>
+              <div class="caption">
+                <a href="javascript:void(0)" class="post-category">Design</a>
+                <a href="#" class="post-title">5 basic tips for illustrating</a>
+                <span class="post-date"
+                  ><span class="sr-only">Published on</span> May 22, 2018</span
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-12 text-center py-3 wow fadeInUp">
+            <a href="blog-fullbar.html" class="btn btn-theme">See All Post</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End blog -->
+
+    <!-- Contact -->
+    <div class="vg-page page-contact" id="contact">
+      <div class="container-fluid">
+        <div class="text-center wow fadeInUp">
+          <div class="badge badge-subhead">Contact</div>
+        </div>
+        <h1 class="text-center fw-normal wow fadeInUp">Get in touch</h1>
+        <div class="row py-5">
+          <div class="col-lg-7 px-0 pr-lg-3 wow zoomIn">
+            <div class="vg-maps">
+              <div id="google-maps" style="width: 100%; height: 100%">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2913.1547866386654!2d-89.3654839253751!3d43.10126188795579!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDPCsDA2JzA0LjUiTiA4OcKwMjEnNDYuNSJX!5e0!3m2!1sen!2sus!4v1715282003541!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+            </div>
+          </div>
+          <div class="col-lg-5">
+            <form class="vg-contact-form">
+              <div class="form-row">
+                <div class="col-12 mt-3 wow fadeInUp">
+                  <input
+                    class="form-control"
+                    type="text"
+                    name="Name"
+                    placeholder="Your Name"
+                  />
+                </div>
+                <div class="col-6 mt-3 wow fadeInUp">
+                  <input
+                    class="form-control"
+                    type="text"
+                    name="Email"
+                    placeholder="Email Address"
+                  />
+                </div>
+                <div class="col-6 mt-3 wow fadeInUp">
+                  <input
+                    class="form-control"
+                    type="text"
+                    name="Subject"
+                    placeholder="Subject"
+                  />
+                </div>
+                <div class="col-12 mt-3 wow fadeInUp">
+                  <textarea
+                    class="form-control"
+                    name="Message"
+                    rows="6"
+                    placeholder="Enter message here.."
+                  ></textarea>
+                </div>
+                <button
+                  type="submit"
+                  class="btn btn-theme mt-3 wow fadeInUp ml-1"
+                >
+                  Send Message
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Contact -->
+
+    <!-- Footer -->
+    <div class="vg-footer">
+      <h1 class="text-center">4 The Love of Code 💖</h1>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 py-3">
+            <div class="footer-info">
+              <p>Where to find me</p>
+              <hr class="divider" />
+              <p class="fs-large fg-white">
+               Madison WI
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 py-3">
+            <div class="float-lg-right">
+              <p>Follow me</p>
+              <hr class="divider" />
+              <ul class="list-unstyled">
+                <li><a href="#">LinkedIn</a></li>
+                <li><a href="#">GMail</a></li>
+                <li><a href="#">Youtube</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 py-3">
+            <div class="float-lg-right">
+              <p>Contact me</p>
+              <hr class="divider" />
+              <ul class="list-unstyled">
+                <li>smithleeann421@gmail.com</li>
+                <li>+1 (608)686-6767</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center mt-3">
+          <div class="col-12 mb-3">
+            <h3 class="fw-normal text-center">Subscribe</h3>
+          </div>
+          <div class="col-lg-6">
+            <form class="mb-3">
+              <div class="input-group">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Email address"
+                />
+                <input
+                  type="submit"
+                  class="btn btn-theme no-shadow"
+                  value="Subscribe"
+                />
+              </div>
+            </form>
+          </div>
+          <div class="col-12">
+            <p class="text-center mb-0 mt-4">
+              Copyright &copy;2020. All right reserved | This template is made
+              with <span class="ti-heart fg-theme-red"></span> by
+              <a href="https://www.macodeid.com/">MACode ID</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End footer -->
+
+    <script src="../assets/js/jquery-3.5.1.min.js"></script>
+
+    <script src="../assets/js/bootstrap.bundle.min.js"></script>
+
+    <script src="../assets/vendor/owl-carousel/owl.carousel.min.js"></script>
+
+    <script src="../assets/vendor/perfect-scrollbar/js/perfect-scrollbar.js"></script>
+
+    <script src="../assets/vendor/isotope/isotope.pkgd.min.js"></script>
+
+    <script src="../assets/vendor/nice-select/js/jquery.nice-select.min.js"></script>
+
+    <script src="../assets/vendor/fancybox/js/jquery.fancybox.min.js"></script>
+
+    <script src="../assets/vendor/wow/wow.min.js"></script>
+
+    <script src="../assets/vendor/animateNumber/jquery.animateNumber.min.js"></script>
+
+    <script src="../assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+
+    <script src="../assets/js/google-maps.js"></script>
+
+    <script src="../assets/js/topbar-virtual.js"></script>
+
+    <!-- <script
+      async
+      defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAIA_zqjFMsJM_sxP9-6Pde5vVCTyJmUHM&callback=initMap"
+    ></script> -->
+  </body>
+</html>
+
